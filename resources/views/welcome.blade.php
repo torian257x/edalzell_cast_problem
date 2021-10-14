@@ -23,6 +23,6 @@
     <body class="antialiased">
 
 
-    <x-test-component></x-test-component>
+        <x-test-component></x-test-component>
     </body>
 </html>

@@ -1,6 +1,4 @@
 <div>
-    <!-- An unexamined life is not worth living. - Socrates -->
-    <?php
-        dd($hellowli);
-    ?>
+{{--    this should work, but \Edalzell\Blade\Augmentation\AugmentationViewServiceProvider somehow does cast $hellowli to string :S--}}
+    {{ $hellowli->key }}
 </div>
