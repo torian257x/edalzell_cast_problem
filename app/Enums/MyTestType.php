@@ -11,7 +11,7 @@ use BenSampo\Enum\Enum;
  */
 final class MyTestType extends Enum
 {
-    const OptionOne =   0;
-    const OptionTwo =   1;
-    const OptionThree = 2;
+    const OptionOne =   'entry1';
+    const OptionTwo =   'entry2';
+    const OptionThree = 'entry3';
 }
