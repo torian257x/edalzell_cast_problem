@@ -3,12 +3,15 @@
 namespace App\View\Components;
 
 use App\Enums\MyTestType;
+use App\Models\User;
 use Illuminate\View\Component;
 
 class TestComponent extends Component
 {
 
     public MyTestType $hellowli;
+
+    public User $myuser;
     /**
      * Create a new component instance.
      *
@@ -17,6 +20,10 @@ class TestComponent extends Component
     public function __construct()
     {
         $this->hellowli = new MyTestType('entry1');
+
+        $this->myuser = new User();
+        $this->myuser->name = 'some nameeeee';
+
     }
 
     /**
